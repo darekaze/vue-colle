@@ -15,17 +15,24 @@
     "bootstrap": "lerna bootstrap",
     "clean": "lerna clean",
     "release": "lerna publish",
-    "pretest": "lerna run pretest"
+    "pretest": "lerna run pretest",
+    "storybook": "start-storybook -p 6006"
   },
   "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@storybook/vue": "^5.0.11",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-service": "^3.7.0",
     "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "core-js": "^2.6.5",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.2.2",
     "lerna": "^3.14.1",
     "vue": "^2.6.10",
+    "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.10"
   }
 }
