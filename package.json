@@ -16,7 +16,9 @@
     "clean": "lerna clean",
     "release": "lerna publish",
     "pretest": "lerna run pretest",
-    "storybook": "start-storybook -p 6006"
+    "transpile": "lerna run transpile",
+    "sb-start": "start-storybook -p 6006",
+    "sb-build": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",

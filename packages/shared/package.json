@@ -2,9 +2,9 @@
     "name": "@vuecolle/shared",
     "version": "0.1.0",
     "description": "Shared component",
-    "main": "dist/index.js",
+    "main": "dist/index.common.js",
     "module": "src/index.js",
     "scripts": {
-        "transpile": "vue-cli-service build --target lib ./src/index.js"
+        "transpile": "vue-cli-service build --mode production --name index --formats commonjs --target lib ./src/index.js"
     }
 }
