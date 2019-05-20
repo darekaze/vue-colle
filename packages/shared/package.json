@@ -1,5 +1,5 @@
 {
-    "name": "@monovue/shared",
+    "name": "@vuecolle/shared",
     "version": "0.1.0",
     "description": "Shared component",
     "main": "dist/index.js",

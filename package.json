@@ -1,12 +1,12 @@
 {
-  "name": "monovue",
-  "description": "Personal Vue monorepo using Lerna and Yarn Workspace",
+  "name": "vuecolle",
+  "description": "Personal Vue monorepo ft. Lerna and Yarn Workspace",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/darekaze/monovue.git"
+    "url": "https://github.com/darekaze/vuecolle.git"
   },
   "workspaces": [
     "packages/*"

@@ -1,3 +1,3 @@
 # Vue Monorepo
 
-This is where I place all my little projects made with React.
+The repo where I place all my projects made with Vue.
